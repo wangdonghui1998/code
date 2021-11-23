@@ -5,8 +5,8 @@
 ### 4 注意torch与cuda之间是否匹配
     https://pytorch.org/get-started/previous-versions/
 ### 5 代码尽量使用git clone 的方法直接克隆到文件夹中，防止有的软连接过不来
-    https://github.com/visionml/pytracking.git
-    https://github.com/vacancy/PreciseRoIPooling.git
+    git clone https://github.com/visionml/pytracking.git
+    git clone https://github.com/vacancy/PreciseRoIPooling.git
 ### 报错提示1：
     RuntimeError: Error building extension '_prroi_pooling'
     原因1 cuda有问题
